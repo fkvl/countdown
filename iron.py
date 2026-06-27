@@ -218,7 +218,7 @@ HERO = r"""
 
       <div class="count">
         <div class="hours" id="hours">—</div>
-        <div class="hours-lab" id="bigword">hours until the gun</div>
+        <div class="hours-lab" id="bigword">hours until it starts!</div>
       </div>
 
       <div class="split">
