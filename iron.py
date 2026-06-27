@@ -214,7 +214,7 @@ HERO = r"""
     <div class="content">
       <div class="eyebrow">__NAME__'S RACE MORNING — __DATE_LONG__</div>
       <h1 class="title"><em>IRONMAN 70.3</em><em>Northern California</em></h1>
-      <p class="loc">A sunrise swim in Whiskeytown Lake, Redding California.</p>
+      <p class="loc">Armina celebrates her birthday by challenging her spirit to this race.</p>
 
       <div class="count">
         <div class="hours" id="hours">—</div>
