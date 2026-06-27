@@ -212,7 +212,7 @@ HERO = r"""
     <div class="sky"><div class="sun"></div></div>
 
     <div class="content">
-      <div class="eyebrow">__NAME__'S RACE MORNING — __DATE_LONG__</div>
+      <div class="eyebrow">__NAME__'S RACE MORNING  __DATE_LONG__</div>
       <h1 class="title"><em>IRONMAN 70.3</em><em>Northern California</em></h1>
       <p class="loc">Armina celebrates her birthday by challenging her spirit to this race.</p>
 
