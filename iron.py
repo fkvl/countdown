@@ -24,7 +24,7 @@ st.set_page_config(
     page_title="Armina's Race-Day Countdown",
     page_icon="🏊‍♀️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # Brand palette (mpathic)
@@ -40,6 +40,10 @@ st.markdown(
     html, body, [class*="css"], .stApp {{ font-family:'Rubik',sans-serif; }}
     .stApp {{ background:{LIGHT_GRAY}; }}
     #MainMenu, header, footer {{ visibility:hidden; }}
+    /* Hide the settings sidebar entirely (and its open arrow) for a clean shared link.
+       To re-enable the controls, delete these two rules. */
+    section[data-testid="stSidebar"] {{ display:none !important; }}
+    [data-testid="stSidebarCollapsedControl"], [data-testid="collapsedControl"] {{ display:none !important; }}
     .block-container {{ padding-top:1.1rem; padding-bottom:2rem; max-width:1120px; }}
     section[data-testid="stSidebar"] {{ background:#fff; border-right:3px solid {MAGENTA}; }}
     section[data-testid="stSidebar"] * {{ font-family:'Rubik',sans-serif; }}
@@ -260,7 +264,7 @@ HERO = r"""
   </div>
 
   <div class="foot">
-    <span class="credit">#shamalcreations</span>
+    <span class="credit">#shamwowcreations</span>
   </div>
 </div>
 
